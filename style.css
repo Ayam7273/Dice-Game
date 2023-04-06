@@ -1,0 +1,80 @@
+body{
+    background-color: grey;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 5rem;
+    margin-top: 100px;
+}
+
+
+
+.player1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -500px;
+    margin-top: 250px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.player1 h2{
+    font-size: 25px;
+    font-family: 'Cedarville Cursive', cursive;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.player1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.player2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 300px;
+    margin-top: -205px;
+}
+
+.player2 h2{
+    font-size: 25px;
+    font-family: 'Cedarville Cursive', cursive;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.player2 img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
